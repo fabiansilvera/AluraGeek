@@ -1,0 +1,10 @@
+.nuevoProducto__button--blue {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #2A7AE4;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 0.5rem 4rem;
+    color: #2A7AE4;
+    text-align: center;
+}

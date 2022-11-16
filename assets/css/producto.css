@@ -1,0 +1,32 @@
+.producto__container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.producto__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5rem 0;
+    gap: 4rem;
+}
+.product__img {
+    max-height: 35rem;
+    max-width: 40rem;
+}
+.producto__datos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    color: #464646;
+    font-weight: bold;
+}
+.product__tittle {
+    font-size: 50px;
+}
+.product__price {
+    font-size: 20px;
+}
+.product__text {
+    font-size: 18px;
+    font-weight: 400;
+}

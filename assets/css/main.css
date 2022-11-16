@@ -1,0 +1,409 @@
+/* Generico */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    background-color: #F5F5F5;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.input__generico {
+    border: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #A2A2A2;
+    border-radius: 5px;
+}
+.input__generico:focus {
+    color: black;
+}
+.input__generico:focus::placeholder {
+    color: #A2A2A2;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+.text--blue,.product--enlace{
+    color: #2A7AE4;
+    font-weight: bold;
+}
+.product--img {
+    margin: 2rem 0;
+}
+.product--img:hover {
+    transform: scale(1.2);
+}
+/* Header Style */
+.main__nav {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.1rem 8%;
+    align-items: center;
+}
+.main__nav--buscador {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+    align-items: center;
+    padding: 1rem 0;
+}
+.main__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+.main__logo--text {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.main__logo--span {
+    font-size: 3rem;
+    color: #2A7AE4;
+}
+@media (max-width: 900px) {
+    .main__logo--text {
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+    .main__logo--span {
+        font-size: 2.4rem;
+    }
+}
+.main__logo--img {
+    width: 40px;
+    height: 30px;
+}
+.main__searchBar {
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+@media (max-width: 767px) {
+    .main__searchBar {
+        display: none;
+    }
+}
+.main__searchInput {
+    padding-left: 1.5rem;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    border: 4px solid #F5F5F5;
+    width: 20rem;
+}
+
+@media (min-width: 1000px) {
+    .main__searchInput {
+        width: 30rem;
+    }
+}
+.main__searchInput::placeholder {
+    color: #A2A2A2;
+}
+.search--button {
+    padding: 0 0.3rem;
+    background-color: #F5F5F5;
+    font-size: 2rem;
+    color: #A2A2A2;
+    border: none;
+    cursor: pointer;
+}
+.button--blue {
+    border: solid 1px #2A7AE4;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 0.5rem 4rem;
+    color: #2A7AE4;
+}
+@media (min-width: 768px) {
+    .main__searchBar {
+        font-size: 1.5rem;
+    }
+    .button--blue {
+        padding: 0.8rem 7rem;
+    }
+}
+.main__banner {
+    color: #F5F5F5;
+    background: rgba(0,0,0,0.4) url("../img/Banner.png");
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main__banner___mensaje {
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    gap: 3rem;
+    padding: 0 0 3.4rem 12%;
+    font-weight: bold;
+}
+.main__banner--tittle {
+    font-size: 50px;
+}
+.main__banner--text {
+    font-size: 22px;
+}
+.button__background--blue {
+    display: inline-block;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: #FFFFFF;
+    padding: 2rem;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+    .main__banner___mensaje {
+        height: 30rem;
+        gap: 2rem;
+        padding: 0 0 4rem 2%;
+    }
+    .main__banner--tittle {
+        font-size: 26px;
+    }  
+    .main__banner--text {
+        font-size: 16px;
+    }
+}
+.main__container {
+    margin: 6rem auto;
+    padding: 0 2rem;
+    max-width: 125rem;
+}
+.section__container {
+    margin: 4rem 0;
+}
+.main__grid--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__tittle {
+    color: #464646;
+    font-weight: bold;
+    font-size: 32px;
+}
+.fa-arrow-right {
+    color: #2A7AE4;
+}
+.product__grid--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 1rem 0 2rem;
+}
+.box--product {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+    color: #464646;
+}
+.box--product:nth-last-child(1),.box--product:nth-last-child(2){
+    display: none;
+}
+.product--price {
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .product__grid--container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (min-width: 1100px) {
+    .product__grid--container {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .box--product:nth-last-child(1),.box--product:nth-last-child(2){
+        display: flex;
+    }
+}
+.button__background--blue:hover, .main__button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.text--blue:hover, .product--enlace:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main__contacto {
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem 10%;
+}
+.main__logo--contacto {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+.main__contacto___info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.main__contacto___info li {
+    cursor: pointer;
+}
+.main__contacto___info li a {
+    color: #464646;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main__contacto___logo--img {
+    width: 40px;
+    height: 30px;
+    margin-top: 1.7rem;
+}
+@media (max-width: 821px) {
+    .main__contacto___logo--img {
+        margin-top: 1.2rem;
+    }
+}
+.main__contacto--title {
+    display: inline-block;
+    font-weight: bold;
+    color: #464646;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #464646;
+    font-size: 16px;
+}
+.contacto--fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contacto__textarea {  
+    border: none;
+    background-color: #FFFFFF;
+    resize: none;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px #A2A2A2;
+}
+.contacto__button {
+    display: block;
+    margin: 0;
+    padding: 2rem;
+    width: 18rem;
+    font-weight: bold;
+    padding-left: 2rem;
+}
+@media (min-width: 768px) {
+    .input__generico {
+        width: 35rem;
+        height: 5.5rem;
+        padding-left: 2rem;
+    }
+    .contacto__textarea {  
+        padding: 1.5rem 0 0 2rem;
+        width: 35rem;
+        height: 8rem;
+    }
+}
+@media (min-width: 1000px) { 
+    .contacto__layout {
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+    }
+    .input__generico {
+        width: 56rem;
+        height: 5.5rem;
+        padding-left: 2rem;
+    }
+    .contacto__textarea {  
+        padding: 1.5rem 0 0 2rem;
+        width: 56rem;
+        height: 8rem;
+    }
+}
+@media (max-width: 760px) {
+    .main__contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        font-size: 2rem;
+        text-align: center;
+        padding: 4rem 0;
+    }
+    .main__logo--contacto {
+        justify-content: center;
+    }
+    .main__contacto--title {
+        font-size: 20px;
+    }
+    .input__generico {
+        width: 23rem;
+        height: 5.5rem;
+        padding-left: 2rem;
+    }
+    .contacto__textarea { 
+        width: 23rem; 
+        padding: 1.5rem 0 0 2rem;
+        height: 8rem;
+        border-radius: 5px;
+    }
+    .contacto__button {
+        font-size: 16px;
+        padding: 1.5rem;
+        width: 16rem;
+        font-weight: bold;
+    }
+}
+.main__footer {
+    margin: 2.5rem 0;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.main__footer-text {
+    color: #464646;
+}
+.main__footer--span {
+    color: #2A7AE4;
+}
+.input__invalid {
+    border: 2px solid red;
+    color: red;
+}
+.input__invalid::placeholder {
+    color: red;
+}
+.input-mensaje-error {
+    display: none;
+  }
+.login__error {
+    display: none;
+}
+.input-container--invalid .input-mensaje-error, .form__invalid .login__error {
+    display: block;
+    color: red;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.input__validity--layout {
+    display: flex;
+    flex-direction: column;
+}

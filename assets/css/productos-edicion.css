@@ -1,0 +1,26 @@
+.product--img--edicion {
+    position: relative;
+}
+.productos--container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+.edicion__iconos {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    top: 10px;
+    right: 15px;
+    gap: 1.5rem;
+}
+.edicion__iconos img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.edicion__iconos img:hover {
+    transform: scale(1.5);
+}

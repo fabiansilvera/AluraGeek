@@ -1,0 +1,12 @@
+.box--product:nth-last-child(1),
+.box--product:nth-last-child(2){
+    display: flex;
+}
+@media (max-width: 767px) {    
+    .productos__header {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: flex-start;
+    }
+}

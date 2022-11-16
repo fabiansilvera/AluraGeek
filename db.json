@@ -1,0 +1,168 @@
+{
+  "usuario": [
+    {
+      "email": "correo@correo.com",
+      "password": "123456",
+      "id": "024c6bd9-c29f-48d0-af83-002f685d2ec6"
+    },
+    {
+      "email": "correo@correo.com",
+      "password": "654321",
+      "id": "024c6bd9-c29f-48d0-af83-002f685d2ec2"
+    }
+  ],
+  "producto": [
+    {
+      "url": "Producto1",
+      "categoria": "productos",
+      "nombre": "Taza starwars",
+      "precio": "12000",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 1
+    },
+    {
+      "url": "Producto2",
+      "categoria": "productos",
+      "nombre": "Producto2",
+      "precio": "3200",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 2
+    },
+    {
+      "url": "Producto3",
+      "categoria": "productos",
+      "nombre": "Producto3",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 3
+    },
+    {
+      "url": "Producto4",
+      "categoria": "productos",
+      "nombre": "Producto4",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 4
+    },
+    {
+      "url": "Producto5",
+      "categoria": "productos",
+      "nombre": "Producto5",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 5
+    },
+    {
+      "url": "Producto6",
+      "categoria": "productos",
+      "nombre": "Producto6",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 6
+    },
+    {
+      "url": "Consolas1",
+      "categoria": "consolas",
+      "nombre": "Consolas1",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 7
+    },
+    {
+      "url": "Consolas2",
+      "categoria": "consolas",
+      "nombre": "Consolas2",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 8
+    },
+    {
+      "url": "Consolas3",
+      "categoria": "consolas",
+      "nombre": "Consolas3",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 9
+    },
+    {
+      "url": "Consolas4",
+      "categoria": "consolas",
+      "nombre": "Consolas4",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 10
+    },
+    {
+      "url": "Consolas5",
+      "categoria": "consolas",
+      "nombre": "Consolas5",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 11
+    },
+    {
+      "url": "Consolas6",
+      "categoria": "consolas",
+      "nombre": "Consolas6",
+      "precio": "120",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 12
+    },
+    {
+      "url": "Diversos1",
+      "categoria": "diversos",
+      "nombre": "Diversos1",
+      "precio": "200",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 13
+    },
+    {
+      "url": "Diversos2",
+      "categoria": "diversos",
+      "nombre": "Diversos2",
+      "precio": "200",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 14
+    },
+    {
+      "url": "Diversos3",
+      "categoria": "diversos",
+      "nombre": "Diversos3",
+      "precio": "200",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 15
+    },
+    {
+      "url": "Diversos4",
+      "categoria": "diversos",
+      "nombre": "Diversos4",
+      "precio": "200",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 16
+    },
+    {
+      "url": "Diversos5",
+      "categoria": "diversos",
+      "nombre": "Diversos5",
+      "precio": "200",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 17
+    },
+    {
+      "url": "Diversos6",
+      "categoria": "diversos",
+      "nombre": "Diversos6",
+      "precio": "200",
+      "descripcion": "Consola para todas las edades sin limite de jugabilidad",
+      "id": 18
+    },
+    {
+      "url": "Consolas2",
+      "categoria": "consolas",
+      "nombre": "Este es un nuevo producto papa",
+      "precio": "1245",
+      "descripcion": "Este es un nuevo producto papaEste es un nuevo producto papa",
+      "id": "05b41de2-e8e9-4f2f-b81d-2401eb66d84d"
+    }
+  ]
+}

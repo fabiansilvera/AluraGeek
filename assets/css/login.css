@@ -1,0 +1,27 @@
+.login__container {
+    margin: 5rem auto;
+}
+.login__form--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.login__input {
+    height: 6rem;
+    padding: 0 2rem;
+}
+.input-login-error {  
+    display: none;
+}
+.fail {
+    display: block;
+    color: red;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
