@@ -6,8 +6,6 @@ El link de githubPages: https://fabiansilvera.github.io/AluraGeek/index.html
 
 💻 Para quienes quieran probarlo pueden encontrarlo en el sig. https://lnkd.in/dYRgKxBy
 
-⚙️ También les dejo un link con acceso al repo de GitHub: https://lnkd.in/dgcFBziQ
-
 💭 Cualquier idea o feedback para continuar agregándole mejoras es, como siempre, bienvenida.
 
 🎞️ Les dejo también algunas fotos de las vistas del proyecto
