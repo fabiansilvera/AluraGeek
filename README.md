@@ -1,10 +1,8 @@
-El link de githubPages: https://fabiansilvera.github.io/AluraGeek/index.html
+💻El link de githubPages: https://fabiansilvera.github.io/AluraGeek/index.html
 
 🎨 Las herramientas para poder llevarlo a cabo fueron: #html  , #css y #javascript y se emulo una base de datos con un #json
 
 ✨ También para la organización del proyecto Trello fue utilizado, como anteriores proyectos, #Trello justamente para tener control y un detalle de los pasos que se fueron concluyendo durante la realización del proyecto. Y a su vez, un diseño en #Figma el cual sirvió de base para todos los estilos allí desplegados.
-
-💻 Para quienes quieran probarlo pueden encontrarlo en el sig. https://lnkd.in/dYRgKxBy
 
 💭 Cualquier idea o feedback para continuar agregándole mejoras es, como siempre, bienvenida.
 
